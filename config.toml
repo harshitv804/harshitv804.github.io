@@ -1,0 +1,59 @@
+baseURL = 'www.example.com'
+languageCode = 'en-us'
+title = 'Harshit V'
+theme = 'archie'
+copyright = "© Harshit V"
+
+[params]
+	mode="toggle"
+  useCDN=false
+  favicon = "https://github.com/harshitv804/harshitv804.github.io/assets/100853494/d7e6579b-711c-42db-8508-e4c2efa75d52"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/athul/archie"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/athulcajay/"
+
+[[params.social]]
+name = "GitLab"
+icon = "gitlab"
+url = "https://gitlab.com/athul/"
+
+[[menu.main]]
+name = "Blog"
+url = "/posts"
+weight = 3
+
+[[menu.main]]
+name = "Portfolio"
+url = "/portfolio"
+weight = 2
+
+[[menu.main]]
+name = "OpenGPT"
+url = "/opengpt"
+weight = 4
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 5
