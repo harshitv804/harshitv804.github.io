@@ -1,5 +1,5 @@
 ---
-title: "First efefefeffe111"
+title: "First Post"
 date: 2023-05-17T16:03:47+05:30
 draft: false
 tags: [hrllo,bjikn]
@@ -12,5 +12,4 @@ tags: [hrllo,bjikn]
   style="width:100%; height:1000px;"
 ></iframe> 
 
-{{< figure src="content\posts\first post\images\favicon.png" title="Dave Herring" >}}
-![Image alt](images/favicon.png)
+![Testing !](images/favicon.png)
