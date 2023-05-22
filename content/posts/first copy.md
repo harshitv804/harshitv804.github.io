@@ -1,5 +1,5 @@
 ---
-title: "First efefefeffe"
+title: "First efefefeffe111"
 date: 2023-05-17T16:03:47+05:30
 draft: false
 tags: [hrllo,bjikn]
@@ -12,4 +12,4 @@ tags: [hrllo,bjikn]
   style="width:100%; height:1000px;"
 ></iframe> 
 
-![](static\images\favicon.png)
+{{< figure src="static/images/favicon.png" title="Dave Herring" >}}
