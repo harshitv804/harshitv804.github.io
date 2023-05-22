@@ -12,4 +12,4 @@ tags: [hrllo,bjikn]
   style="width:100%; height:1000px;"
 ></iframe> 
 
-![Testing !](images/favicon.png)
+{{< figure src="images\favicon.png" title="Dave Herring" >}}
