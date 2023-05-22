@@ -12,4 +12,4 @@ tags: [hrllo,bjikn]
   style="width:100%; height:1000px;"
 ></iframe> 
 
-{{< figure src="https://github.com/harshitv804/harshitv804.github.io/blob/master/content/posts/first%20post/images/favicon.png" title="My Favicon" >}}
+{{< figure src="https://raw.githubusercontent.com/harshitv804/harshitv804.github.io/master/content/posts/first%20post/images/favicon.png" title="My Favicon" >}}
