@@ -7,7 +7,7 @@ copyright = "© Harshit V"
 [params]
 	mode="toggle"
   useCDN=false
-  favicon = "https://github.com/harshitv804/harshitv804.github.io/assets/100853494/d7e6579b-711c-42db-8508-e4c2efa75d52"
+  favicon = "https://github.com/harshitv804/harshitv804.github.io/assets/100853494/189607e5-37f5-4045-ba29-f9d0bd6c5d52"
 
 [markup]
   [markup.goldmark]
