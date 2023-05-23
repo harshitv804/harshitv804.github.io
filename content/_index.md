@@ -24,7 +24,7 @@ Apart from my technical expertise, I actively share my knowledge through insight
 
 Moreover, I offer curated prompts for GPT-3 in English, enabling users to enhance their language generation capabilities. [Click Here!](/opengpt)
 
-I can be reached through various professional platforms such as [GitHub](https://github.com/harshitv804), [Kaggle](https://www.kaggle.com/harshit804), and [Twitter](https://twitter.com/dogefather_).
+You can reach me through various professional platforms such as [GitHub](https://github.com/harshitv804), [Kaggle](https://www.kaggle.com/harshit804), and [Twitter](https://twitter.com/dogefather_).
 
 Additionally, you can contact me via [Email](mailto:harshitv804@gmail.com) for any further inquiries or collaborations.
 
