@@ -1,9 +1,13 @@
 ---
 title: "About Me"
 ---
-{{< figure src="https://media.licdn.com/dms/image/C5603AQGFxr0ezS2-Xw/profile-displayphoto-shrink_200_200/0/1661057655149?e=1690416000&v=beta&t=X0Cn7xYmX1LXtLdppj9JFJl5IqwDctyVAQyKq-nFII4" title="Harshit V" >}}
 
-I am Harshit, an aspiring data scientist and WordPress developer with a year of valuable experience. My passion lies in leveraging machine learning techniques to drive insights and develop innovative solutions. I have successfully completed five projects based on machine learning, showcasing my expertise in this domain. Additionally, I have also developed five WordPress websites, highlighting my proficiency in web development.
+<figure>
+    <img src="https://storage.googleapis.com/kaggle-avatars/images/9767392-kg.png?r=1684841241315"width="250" height="250">
+    <figcaption><b><h4>Harshit V</h4></b></figcaption>
+</figure>
+
+Hi, I am Harshit, an aspiring data scientist and WordPress developer with a year of valuable experience. My passion lies in leveraging machine learning techniques to drive insights and develop innovative solutions. I have successfully completed five projects based on machine learning, showcasing my expertise in this domain. Additionally, I have also developed five WordPress websites, highlighting my proficiency in web development.
 
 My core skills revolve around 
 - [Machine Learning](#)
