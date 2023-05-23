@@ -9,7 +9,7 @@ title: "About Me"
 
 Hi, I am Harshit, an aspiring data scientist and WordPress developer with a year of valuable experience. My passion lies in leveraging machine learning techniques to drive insights and develop innovative solutions. I have successfully completed five projects based on machine learning, showcasing my expertise in this domain. Additionally, I have also developed five WordPress websites, highlighting my proficiency in web development.
 
-My core skills revolve around 
+My core skills revolve around,
 - [Machine Learning](#)
 - [Deep Learning](#)
 - [Data Analysis](#)
