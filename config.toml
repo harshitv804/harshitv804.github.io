@@ -29,7 +29,7 @@ icon = "twitter"
 url = "https://twitter.com/dogefather_"
 
 [[menu.main]]
-name = "Blog"
+name = "Posts"
 url = "/posts"
 weight = 3
 
@@ -44,7 +44,7 @@ url = "/opengpt"
 weight = 4
 
 [[menu.main]]
-name = "Home"
+name = "About Me"
 url = "/"
 weight = 1
 
