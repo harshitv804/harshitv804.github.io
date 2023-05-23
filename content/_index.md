@@ -2,20 +2,10 @@
 title: "About Me"
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+I am Harshit, an aspiring data scientist and WordPress developer with a year of valuable experience. My passion lies in leveraging machine learning techniques to drive insights and develop innovative solutions. I have successfully completed five projects based on machine learning, showcasing my expertise in this domain. Additionally, I have also developed five WordPress websites, highlighting my proficiency in web development.
 
-Hugo makes use of a variety of open source projects including:
+My core skills revolve around machine learning, WordPress development, and data wrangling. I possess a strong understanding of various machine learning algorithms and techniques, allowing me to effectively analyze complex datasets and derive actionable insights. Furthermore, I excel in creating user-friendly and visually appealing WordPress websites, incorporating the latest industry trends and best practices.
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+Apart from my technical expertise, I actively share my knowledge through insightful blog posts, providing valuable information to the data science and WordPress development communities. Moreover, I offer curated prompts for GPT-3 role English in English, enabling users to enhance their language generation capabilities.
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
-
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+You can reach me on [GitHub](https://github.com/harshitv804) and [Email](harshitv804@gmail.com).
