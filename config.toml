@@ -28,6 +28,11 @@ name = "Twitter"
 icon = "twitter"
 url = "https://twitter.com/dogefather_"
 
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/harshitv804"
+
 [[menu.main]]
 name = "Posts"
 url = "/posts"

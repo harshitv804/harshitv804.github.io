@@ -20,13 +20,11 @@ My core skills revolve around,
 
 I possess a strong understanding of various machine learning algorithms and techniques, allowing me to effectively analyze complex datasets and derive actionable insights. Furthermore, I excel in creating user-friendly and visually appealing WordPress websites, incorporating the latest industry trends and best practices.
 
-Apart from my technical expertise, I actively share my knowledge through insightful blog posts, providing valuable information to the data science and WordPress development communities. 
-
-Moreover, I offer curated prompts for GPT-3 in English, enabling users to enhance their language generation capabilities. [Click Here!](/opengpt)
+Apart from my technical expertise, I actively share my knowledge through insightful blog posts, providing valuable information. Moreover, I offer curated prompts for GPT-3 in English, enabling users to enhance their language generation capabilities. [Click Here!](/opengpt)
 
 You can reach me through various professional platforms such as [GitHub](https://github.com/harshitv804), [Kaggle](https://www.kaggle.com/harshit804), and [Twitter](https://twitter.com/dogefather_).
 
-Additionally, you can contact me via [Email](mailto:harshitv804@gmail.com) for any further inquiries or collaborations.
+Additionally, you can contact me via [Email](mailto:harshitv804@gmail.com) and [LinkedIn](https://www.linkedin.com/in/harshitv804) for any further inquiries or collaborations.
 
 
 
