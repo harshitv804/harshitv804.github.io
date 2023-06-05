@@ -36,17 +36,17 @@ url = "https://www.linkedin.com/in/harshitv804"
 [[menu.main]]
 name = "Posts"
 url = "/posts"
-weight = 2
+weight = 3
 
 [[menu.main]]
 name = "Portfolio"
 url = "/portfolio"
-weight = 1
+weight = 2
 
 [[menu.main]]
-name = "OpenGPT"
-url = "/opengpt"
-weight = 3
+name = "About Me"
+url = "/"
+weight = 1
 
 [[menu.main]]
 name = "Tags"
