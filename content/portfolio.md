@@ -3,6 +3,11 @@ title: "Portfolio"
 layout: staticpage
 ---
 
+## [Generative AI Projects](#)
+ Project     | Link |
+| ----------- | ----------- |
+| **1. LawGPT**<br>A Generative AI Attorney fed with Indian Penal Code data. Developed using LangChain and LaMini Flan-T5.<br> **Tech Stack:** LLM, Langchain and Python  | [Code](https://github.com/harshitv804/LawGPT) |
+
 ## [Data Analysis Projects](#)
 
 | Project     | Link |
