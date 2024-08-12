@@ -157,4 +157,8 @@ a:hover {
     .project-content{
         padding-top: 20px;
     }
+        .container {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
 }
