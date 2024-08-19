@@ -157,6 +157,11 @@ a:hover {
     border-radius: 10px;
 }
 
+.social-links a {
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
 .tag {
     background-color: #EBEBEB;
     border: 3px dashed orange;
