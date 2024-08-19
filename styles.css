@@ -149,6 +149,14 @@ a:hover {
     gap: 10px;
 }
 
+.social-links{
+    display: inline-block;
+    background-color: #ffffff;
+    border: 3px dashed orange;
+    padding: 3px 8px;
+    border-radius: 10px;
+}
+
 .tag {
     background-color: #EBEBEB;
     border: 3px dashed orange;
