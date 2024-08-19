@@ -2,7 +2,9 @@ body {
     font-family: 'Noto Sans', sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.5;    
+    line-height: 1.5;
+    overflow-x: hidden;
+    
 }
 
 a:hover {
@@ -92,7 +94,7 @@ a:hover {
 .go-top a {
     display: block;
     text-decoration: none;
-    color: black; 
+    color: #0066cc; 
     text-align: center;
     text-decoration: underline;
     width: 100%;
@@ -101,7 +103,8 @@ a:hover {
 }
 
 .go-top a:hover {
-    color: black !important;
+    text-decoration-color: orange;
+    color: orange !important;
 }
 
 .portfolio h2 {
@@ -140,6 +143,20 @@ a:hover {
     text-decoration: none;
 }
 
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tag {
+    background-color: #EBEBEB;
+    border: 3px dashed orange;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
 @media (max-width: 768px) {
     .header, .project {
         flex-direction: column;
@@ -155,7 +172,7 @@ a:hover {
     .project-content{
         padding-top: 20px;
     }
-        .container {
+    .container {
         max-width: 100%;
         box-sizing: border-box;
     }
