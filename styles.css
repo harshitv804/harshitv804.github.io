@@ -14,9 +14,9 @@ a:hover {
 .container {
     width: 100%;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 10px;
-    padding-top: 20px;
+/*     padding-top: 20px; */
     display: flex;
     justify-content: center;
     align-items: center;
