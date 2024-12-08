@@ -67,16 +67,6 @@ a:hover {
     text-decoration: none;
 }
 
-.links {
-    margin-top: 10px;
-}
-
-.links a, .project-content .links a {
-    margin-right: 10px;
-    text-decoration: underline;
-    text-decoration-color: orange;
-}
-
 .social-links{
     display: inline-block;
     background-color: #ffffff;
