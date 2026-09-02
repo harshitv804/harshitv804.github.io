@@ -77,7 +77,9 @@
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    text-decoration: none;
+  }
+  p.links {
+    text-align: left;
   }
   .links svg {
     width: 18px;
@@ -86,12 +88,12 @@
   }
   a {
     color: #1a5276;
+    text-decoration: underline;
   }
   h3 a {
     display: inline-flex;
     align-items: center;
     gap: 7px;
-    text-decoration: none;
   }
   h3 svg.gh-icon {
     width: 17px;
@@ -107,6 +109,85 @@
     color: #666;
     font-size: 15px;
     margin: 0 0 6px 0;
+  }
+  .timeline {
+    position: relative;
+    margin-top: 20px;
+  }
+  .timeline-item {
+    display: grid;
+    grid-template-columns: 115px 24px 1fr;
+    column-gap: 6px;
+    position: relative;
+    padding-bottom: 30px;
+  }
+  .timeline-item:last-child {
+    padding-bottom: 0;
+  }
+  .timeline-date {
+    text-align: right;
+    color: #777;
+    font-size: 13px;
+    padding-top: 3px;
+    white-space: nowrap;
+  }
+  .timeline-date-mobile {
+    display: none;
+    color: #777;
+    font-size: 13px;
+    margin: 0 0 4px 0;
+  }
+  .timeline-marker {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .timeline-marker::before {
+    content: '';
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #999;
+    border: 2px solid #ececec;
+    margin-top: 5px;
+    z-index: 1;
+    position: relative;
+  }
+  .timeline-marker::after {
+    content: '';
+    position: absolute;
+    top: 6px;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    background: #ccc;
+  }
+  .timeline-item:last-child .timeline-marker::after {
+    display: none;
+  }
+  .timeline-content h3 {
+    margin-top: 0;
+  }
+  .timeline-content .meta {
+    margin-top: 0;
+  }
+  @media (max-width: 600px) {
+    .timeline-item {
+      grid-template-columns: 18px 1fr;
+      column-gap: 10px;
+    }
+    .timeline-date {
+      display: none;
+    }
+    .timeline-date-mobile {
+      display: block;
+    }
+    .timeline-marker::before {
+      width: 9px;
+      height: 9px;
+      margin-top: 5px;
+    }
   }
   p {
     margin: 6px 0;
@@ -132,7 +213,7 @@
   </div>
   <div class="profile-right">
     <h1>Harshit V</h1>
-    <p class="subtitle">Tech enthusiast skilled in Generative AI and WordPress development. I like training AI models and building software — becoming a generalist is the goal.</p>
+    <p class="subtitle">Tech enthusiast, Weeb, Rockets, I like training AI models and developing softwares and more — becoming the jack of all trades master of none.</p>
     <p class="links">
       <a href="mailto:harshitvenkatesan88@gmail.com">
         <svg viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6l10 7 10-7"/></svg>
@@ -160,22 +241,41 @@
 
 <h2>Experience</h2>
 
-<div class="entry">
-  <h3>Project Engineer — Wipro</h3>
-  <p class="meta">Mar 2025 – Jun 2026 · Chennai, Tamil Nadu, India · Full-time, On-site</p>
-  <p>Working as a Project Engineer, recognized with an award badge for inspiring performance.</p>
-</div>
+<div class="timeline">
 
-<div class="entry">
-  <h3>Machine Learning Engineer — Prag Robotics</h3>
-  <p class="meta">Feb 2023 – Apr 2023 · Chennai, Tamil Nadu, India · Internship, Hybrid</p>
-  <p>Worked with a team of four to develop a machine-learning web application that predicts diseases based on symptoms. Primary responsibilities included developing machine learning models for disease prediction.</p>
-</div>
+  <div class="timeline-item">
+    <div class="timeline-date">Mar 2025 – Jun 2026</div>
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <p class="timeline-date-mobile">Mar 2025 – Jun 2026</p>
+      <h3>Project Engineer — Wipro</h3>
+      <p class="meta">Chennai, Tamil Nadu, India · Full-time, On-site</p>
+      <p>Worked on AI-assisted mainframe modernization for a major US banking client — modernizing legacy COBOL and JCL to current IBM standards. Built an LLM-based POC to automate COBOL retrofits, loop optimizations, and drop-in code replacements, with testing validated across DEV, INTG, UAT, and PRE-PROD. Collaborated directly with client-side developers using Jira and Agile sprints.</p>
+    </div>
+  </div>
 
-<div class="entry">
-  <h3>WordPress Developer — Game Plan Tribe</h3>
-  <p class="meta">Jul 2021 – Apr 2022 · India · Freelance, Remote</p>
-  <p>Created and maintained various websites — e-commerce, landing pages, and business sites. Designed and developed over multiple client projects.</p>
+  <div class="timeline-item">
+    <div class="timeline-date">Feb 2023 – Apr 2023</div>
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <p class="timeline-date-mobile">Feb 2023 – Apr 2023</p>
+      <h3>Machine Learning Engineer — Prag Robotics</h3>
+      <p class="meta">Chennai, Tamil Nadu, India · Internship, Hybrid</p>
+      <p>Worked with a team of four to develop a machine-learning web application that predicts diseases based on symptoms. Primary responsibilities included developing machine learning models for disease prediction.</p>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">Jul 2021 – Apr 2022</div>
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <p class="timeline-date-mobile">Jul 2021 – Apr 2022</p>
+      <h3>WordPress Developer — Game Plan Tribe</h3>
+      <p class="meta">India · Freelance, Remote</p>
+      <p>Created and maintained various websites — e-commerce, landing pages, and business sites. Designed and developed over multiple client projects.</p>
+    </div>
+  </div>
+
 </div>
 
 <h2>Projects</h2>
