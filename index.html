@@ -177,6 +177,9 @@
       grid-template-columns: 18px 1fr;
       column-gap: 10px;
     }
+    .timeline-item.no-date {
+      grid-template-columns: 18px 1fr;
+    }
     .timeline-date {
       display: none;
     }
@@ -213,7 +216,7 @@
   </div>
   <div class="profile-right">
     <h1>Harshit V</h1>
-    <p class="subtitle">Tech enthusiast, Weeb, Rockets, I like training AI models and developing softwares and more — becoming the jack of all trades master of none.</p>
+    <p class="subtitle">Tech enthusiast, Weeb, Rockets, I like training AI models, developing softwares and more... — becoming the jack of all trades master of none.</p>
     <p class="links">
       <a href="mailto:harshitvenkatesan88@gmail.com">
         <svg viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6l10 7 10-7"/></svg>
@@ -230,10 +233,6 @@
       <a href="https://huggingface.co/harshitv804">
         <svg viewBox="0 0 24 24"><text x="0" y="18" font-size="18">🤗</text></svg>
         HuggingFace
-      </a>
-      <a href="https://docs.google.com/document/d/14jXQCB32V6jW4UnNsSsOGyIN1pi_ED04MU2TpV-VyuU/edit?usp=sharing">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="1.8"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M8 13h8M8 17h8M8 9h2"/></svg>
-        CV
       </a>
     </p>
   </div>
@@ -280,24 +279,40 @@
 
 <h2>Projects</h2>
 
-<div class="entry">
-  <h3><a href="https://github.com/harshitv804/LawGPT">LawGPT<svg class="gh-icon" viewBox="0 0 24 24" fill="#181717"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.35-3.88-1.35-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.39-5.25 5.67.41.36.78 1.07.78 2.16 0 1.56-.01 2.82-.01 3.2 0 .3.2.66.79.55A10.51 10.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg></a></h3>
-  <p>A RAG-based generative AI attorney chatbot trained on Indian Penal Code data, built with Streamlit, LangChain, and the TogetherAI API. Answers legal questions with citations grounded in the IPC.</p>
-</div>
+<div class="timeline">
 
-<div class="entry">
-  <h3><a href="https://github.com/harshitv804/GPT2-from-scratch-Pytorch">GPT2-from-scratch-Pytorch<svg class="gh-icon" viewBox="0 0 24 24" fill="#181717"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.35-3.88-1.35-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.39-5.25 5.67.41.36.78 1.07.78 2.16 0 1.56-.01 2.82-.01 3.2 0 .3.2.66.79.55A10.51 10.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg></a></h3>
-  <p>A GPT-2 architecture implemented from scratch in PyTorch, following Sebastian Raschka's book. A 58M-parameter model pretrained on ~6M tokens of Tamil and English text and finetuned for English–Tamil translation, using the Liger kernel for faster, memory-efficient training.</p>
-</div>
+  <div class="timeline-item">
+    <div class="timeline-date"></div>
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h3><a href="https://github.com/harshitv804/LawGPT">LawGPT<svg class="gh-icon" viewBox="0 0 24 24" fill="#181717"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.35-3.88-1.35-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.39-5.25 5.67.41.36.78 1.07.78 2.16 0 1.56-.01 2.82-.01 3.2 0 .3.2.66.79.55A10.51 10.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg></a></h3>
+    </div>
+  </div>
 
-<div class="entry">
-  <h3><a href="https://github.com/harshitv804/Time-Series-Forecasting-LSTM-Streamlit">Time-Series-Forecasting-LSTM-Streamlit<svg class="gh-icon" viewBox="0 0 24 24" fill="#181717"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.35-3.88-1.35-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.39-5.25 5.67.41.36.78 1.07.78 2.16 0 1.56-.01 2.82-.01 3.2 0 .3.2.66.79.55A10.51 10.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg></a></h3>
-  <p>A PyTorch LSTM-based time series forecasting tool built with Streamlit. Supports univariate and multivariate multi-step forecasting, with data preprocessing, correlation matrices, seasonal decomposition, and interactive Plotly charts.</p>
-</div>
+  <div class="timeline-item">
+    <div class="timeline-date"></div>
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h3><a href="https://github.com/harshitv804/GPT2-from-scratch-Pytorch">GPT2-from-scratch-Pytorch<svg class="gh-icon" viewBox="0 0 24 24" fill="#181717"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.35-3.88-1.35-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.39-5.25 5.67.41.36.78 1.07.78 2.16 0 1.56-.01 2.82-.01 3.2 0 .3.2.66.79.55A10.51 10.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg></a></h3>
+    </div>
+  </div>
 
-<div class="entry">
-  <h3><a href="https://github.com/harshitv804/TN-Weather-Made-Easy">TN-Weather-Made-Easy<svg class="gh-icon" viewBox="0 0 24 24" fill="#181717"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.35-3.88-1.35-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.39-5.25 5.67.41.36.78 1.07.78 2.16 0 1.56-.01 2.82-.01 3.2 0 .3.2.66.79.55A10.51 10.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg></a></h3>
-  <p>A one-stop website bringing together IMD nowcast radars, curated third-party radars, wind and dry-air patterns, trusted weather bloggers, and MJO/ENSO data from NOAA — built for easy access to Tamil Nadu weather info.</p>
+  <div class="timeline-item">
+    <div class="timeline-date"></div>
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h3><a href="https://github.com/harshitv804/Time-Series-Forecasting-LSTM-Streamlit">Time-Series-Forecasting-LSTM-Streamlit<svg class="gh-icon" viewBox="0 0 24 24" fill="#181717"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.35-3.88-1.35-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.39-5.25 5.67.41.36.78 1.07.78 2.16 0 1.56-.01 2.82-.01 3.2 0 .3.2.66.79.55A10.51 10.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg></a></h3>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date"></div>
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h3><a href="https://github.com/harshitv804/TN-Weather-Made-Easy">TN-Weather-Made-Easy<svg class="gh-icon" viewBox="0 0 24 24" fill="#181717"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.35-3.88-1.35-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.39-5.25 5.67.41.36.78 1.07.78 2.16 0 1.56-.01 2.82-.01 3.2 0 .3.2.66.79.55A10.51 10.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg></a></h3>
+    </div>
+  </div>
+
 </div>
 
 <hr>
